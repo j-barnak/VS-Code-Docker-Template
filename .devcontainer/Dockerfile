@@ -13,6 +13,7 @@ RUN apt-get update
 
 # Additional Packages
 RUN apt-get install -qy build-essential
+RUN apt-get install -qy valgrind
 RUN apt-get install -qy cmake
 RUN apt-get install -qy git
 RUN apt-get install -qy gdb
